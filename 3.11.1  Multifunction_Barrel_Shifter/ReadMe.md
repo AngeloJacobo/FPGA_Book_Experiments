@@ -5,8 +5,8 @@ Date: Feb 15,2021
 Rotate_8.v -> 8-bit Rotator(left or right)   
 Rotate_16.v -> 16-bit Rotator(left or right)  
 Rotate_32.v -> 32-bit Rotator(left or right)  
-Multi_Barrel_Shifter8x16x32x.v -> Combined the 8,16,and 32 bit rotators.Adjust the param to choose between the three  
-barreLshifter_TB.v -> See "barreLshifter_TB_RESULT.txt" for the result of this testbench  
+Multi_Barrel_Shifter8x16x32x.v -> Combined the 8, 16,and 32 bit rotators. Adjust the parameter to choose between the three.  
+barreLshifter_TB.v -> See "barreLshifter_TB_RESULT.txt" for the result of this testbench.  
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
 
