@@ -9,9 +9,11 @@ greater_than_4bit_TB.v -> See "greater_than_4bit_TB_RESULT.txt" for the result o
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.
 
+![table](https://user-images.githubusercontent.com/87559347/126031862-baae47bd-a907-4108-941a-54d706409810.png)
+
 
 TASK:
-2.9.1 Gate-level greater-than circuit 
+#2.9.1 Gate-level greater-than circuit 
 
 The greater-than circuit compares two inputs, a and b, and asserts an output when a is 
 greater than b. We want to create a 4-bit greater-than circuit from the bottom up and use 
