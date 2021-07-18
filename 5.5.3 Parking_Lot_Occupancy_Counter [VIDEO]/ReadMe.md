@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: March 11,2021  
 
+[![]( https://user-images.githubusercontent.com/87559347/126061100-1ca2cb03-5da8-47b4-8315-29919ac9e661.png)]( https://youtu.be/nGxDriUwT1Y)
+
 # Inside the src folder are:  
 * parking_lot_counter.v -> Checks whether a vehicle has entered or exited based on some predefined patterns  
 * parking_lot_counter_TB.v -> A simple testbench to ensure the operation of the parking_lot_counter  
