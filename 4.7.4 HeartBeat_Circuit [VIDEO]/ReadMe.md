@@ -1,6 +1,10 @@
 Created by: Angelo Jacobo   
 Date: March 6,2021  
 
+
+[![](https://user-images.githubusercontent.com/87559347/126058171-ac9cd514-fa08-4f01-a103-ddf2d65138d4.png)](https://youtu.be/TlNdaBp-t7g)
+
+
 # Inside the src folder are:  
 heartbeat.v -> Free-running heartbeat simulator using the 6 seven-segment LEDs  
 heartbeat_TB.v -> Testbench with a frequency of 10MHz (100ns per heartbeat pattern)    
