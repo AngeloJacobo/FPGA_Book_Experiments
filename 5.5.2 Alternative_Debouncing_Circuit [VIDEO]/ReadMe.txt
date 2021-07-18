@@ -1,18 +1,19 @@
-Created by: Angelo Jacobo 
-Date: March 11,2021
+Created by: Angelo Jacobo     
+Date: March 11,2021   
 
-Inside the src folder are:
-early_debounce.v -> A debouncing module that asserts for the first rising edge of the button then stay there for 20ms before deasserting instantly on the falling edge. It will then wait for another 20ms before asserting on the next rising edge
-debouncing_button_TB.v -> A simple testbench to ensure the operation of the debouncing module
-debouncing_TEST.v -> Module that combines early_debounce and Led_mux. Every press of the "sw" will increment the counter by 1 which will then be displayed on the seven-segments.
-Led_mux.v -> Module for seven-segment time-multiplexing circuit.
-debouncing_TEST.ucf -> Constraint file for debouncing_TEST.v
+# Inside the src folder are:   
+* early_debounce.v -> A debouncing module that asserts for the first rising edge of the button then stay there 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;for 20ms before deasserting instantly on the falling edge. It will then wait for another 20ms before asserting on the next rising edge
+* debouncing_button_TB.v -> A simple testbench to ensure the operation of the debouncing module
+* debouncing_TEST.v -> Module that combines early_debounce and Led_mux. Every press of the "sw" will increment the counter by 1 which will then be displayed on the seven-segments.
+* Led_mux.v -> Module for seven-segment time-multiplexing circuit.
+* debouncing_TEST.ucf -> Constraint file for debouncing_TEST.v
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
 
-TASK:
-5.5.2 Alternative debouncing circuit
+# TASK:  
+**5.5.2 Alternative debouncing circuit**
 
 One problem with the debouncing design in Section 5.3.2 is the delayed response of the
 onset of a switch transition. An alternative is to react to the first edge in the transition and
