@@ -19,12 +19,13 @@ Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specif
 **4.7.5 Rotating LED banner circuit**  
 
 The prototyping board has a four-digit seven-segment LED display, and thus only four  
-symbols can be displayed at a time. We can show more information if the data is rotated and moved continuously.
+symbols can be displayed at a time. We can show more information if the data is  
+rotated and moved continuously.
 
-For example, assume that the message is 10 digits (i.e.,"0123456789"). The display can show the message as:  
-"0123", "1234", "2345", . . . , 6789", "7890, . . . , "0123". The circuit should have an  
-input, en, which enables or pauses the rotation, and an input, dir,  
-which specifies the direction (i.e., rotate left or right).  
+For example, assume that the message is 10 digits (i.e.,"0123456789"). The display can  
+show the message as: "0123", "1234", "2345", . . . , 6789", "7890, . . . , "0123".
+The circuit should have an  input, en, which enables or pauses the rotation, and an 
+input, dir, which specifies the direction (i.e., rotate left or right).  
 
-Design the circuit and verify its operation on the prototyping board. Make sure that the
-rotation rate is slow enough for visual inspection.
+Design the circuit and verify its operation on the prototyping board. Make sure that
+the rotation rate is slow enough for visual inspection.
