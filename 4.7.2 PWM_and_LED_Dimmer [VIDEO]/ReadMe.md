@@ -6,12 +6,12 @@ Date: March 5,2021
 
 
 # Inside the src folder are:  
-led_dimmer.v -> 4-bit resolution PWM controlled by "w"  
-led_dimmer_TB.v -> See the wave for the increasing duty cycle   
-led_dimmer_TEST.v -> Module that combines led_dimmer and Led_mux. External button increments "w" by one which   
+* led_dimmer.v -> 4-bit resolution PWM controlled by "w"  
+* led_dimmer_TB.v -> See the wave for the increasing duty cycle   
+* led_dimmer_TEST.v -> Module that combines led_dimmer and Led_mux. External button increments "w" by one which   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; increases the brightness of the seven-segment. The value of "w" is displayed on the seven-segments.  
-Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
-led_dimmer_TEST.ucf -> Constraint file for led_dimmer_TEST.v  
+* Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
+* led_dimmer_TEST.ucf -> Constraint file for led_dimmer_TEST.v  
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
