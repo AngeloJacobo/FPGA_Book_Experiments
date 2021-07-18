@@ -2,10 +2,10 @@ Created by: Angelo Jacobo
 Date: Feb 10,2021  
 
 # Inside the src folder are:  
-greater_than_2bit.v -> 2-bit greater than circuit. Uses the sum-of-product terms from the table to form the overall logic.  
-greater_than_4bit.v -> 4-bit greater than circuit. Uses the greater_than_2bit,eq2,and eq1 modules to form the overall logic  
-greater_than_2bit_TB.v -> See "greater_than_2bit_TB_RESULT.txt" for the result of this testbench  
-greater_than_4bit_TB.v -> See "greater_than_4bit_TB_RESULT.txt" for the result of this testbench  
+* greater_than_2bit.v -> 2-bit greater than circuit. Uses the sum-of-product terms from the table to form the overall logic.  
+* greater_than_4bit.v -> 4-bit greater than circuit. Uses the greater_than_2bit,eq2,and eq1 modules to form the overall logic  
+* greater_than_2bit_TB.v -> See "greater_than_2bit_TB_RESULT.txt" for the result of this testbench  
+* greater_than_4bit_TB.v -> See "greater_than_4bit_TB_RESULT.txt" for the result of this testbench  
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
 
