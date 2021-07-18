@@ -5,13 +5,13 @@ Date: March 7,2021
 
 
 # Inside the src folder are:  
-rotating_LED.v -> Module for rotating LED banner. Edit "W" with the number of desired letters,  
+* rotating_LED.v -> Module for rotating LED banner. Edit "W" with the number of desired letters,  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; then edit the "words" register with the desired letters,  
-rotating_LED_TEST.v -> Module that combines the rotating_LED module and Led_mux module.  
+* rotating_LED_TEST.v -> Module that combines the rotating_LED module and Led_mux module.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"en" for play/pause  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"dir" for moving left/right  
-Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
-rotating_LED_TEST.ucf -> Constraint file for rotating_LED_TEST.v  
+* Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
+* rotating_LED_TEST.ucf -> Constraint file for rotating_LED_TEST.v  
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
