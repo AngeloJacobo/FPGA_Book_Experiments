@@ -2,8 +2,8 @@ Created by: Angelo Jacobo
 Date: Feb 14,2021  
 
 # Inside the src folder are:  
-fp_greaterthan.v -> Compares two 13-bits and asserts gt if first input is greater than the second.  
-fp_greaterthan_TB.v -> See "fp_greaterthan_TB_RESULT.txt" for the result of this testbench.  
+* fp_greaterthan.v -> Compares two 13-bits and asserts gt if first input is greater than the second.  
+* fp_greaterthan_TB.v -> See "fp_greaterthan_TB_RESULT.txt" for the result of this testbench.  
 
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
