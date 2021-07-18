@@ -2,8 +2,8 @@ Created by: Angelo Jacobo
 Date: Feb 13,2021  
 
 # Inside the src folder are:  
-dual_prioenc.v -> 12-bit prioity encoder which returns the first and second priority.  
-dual_pioenc_TB.v -> See "dual_pioenc_TB_RESULT.txt" for the result of this testbench  
+* dual_prioenc.v -> 12-bit prioity encoder which returns the first and second priority.  
+* dual_pioenc_TB.v -> See "dual_pioenc_TB_RESULT.txt" for the result of this testbench  
 
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
