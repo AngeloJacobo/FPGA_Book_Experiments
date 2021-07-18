@@ -6,7 +6,7 @@ Date: March 8,2021
 # Inside the src folder are:  
 * Enhanced_Stopwatch.v -> Stopwatch with enable and can count up and down.  
 * EnhancedStopwatch_TB.v -> Testbench that ticks every 50ns with a 100MHZ clock  
-* ehn_stopwatch_TEST.v -> Module that combines the Enhanced_Stopwatch module and Led_mux module. 
+* ehn_stopwatch_TEST.v -> Module that combines the Enhanced_Stopwatch module and Led_mux module.    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"go" is for play/pause and "up" is for counting-up/counting-down  
 * Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
 * ehn_stopwatch_TEST.ucf -> Constraint file for ehn_stopwatch_TEST.v  
