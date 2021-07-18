@@ -1,20 +1,22 @@
 Created by: Angelo Jacobo  
 Date: March 8,2021  
 
-#Inside the src folder are:  
-Enhanced_Stopwatch.v -> Stopwatch with enable and can count up and down.  
-EnhancedStopwatch_TB.v -> Testbench that ticks every 50ns with a 100MHZ clock  
-ehn_stopwatch_TEST.v -> Module that combines the Enhanced_Stopwatch module and Led_mux module. "go" is for play/pause and "up" is for counting-up/counting-down  
-Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
-ehn_stopwatch_TEST.ucf -> Constraint file for ehn_stopwatch_TEST.v  
+# Inside the src folder are:  
+* Enhanced_Stopwatch.v -> Stopwatch with enable and can count up and down.  
+* EnhancedStopwatch_TB.v -> Testbench that ticks every 50ns with a 100MHZ clock  
+* ehn_stopwatch_TEST.v -> Module that combines the Enhanced_Stopwatch module and Led_mux module. 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"go" is for play/pause and "up" is for counting-up/counting-down  
+* Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
+* ehn_stopwatch_TEST.ucf -> Constraint file for ehn_stopwatch_TEST.v  
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
 
-#TASK:  
+# TASK:  
 **4.7.6 Enhanced stopwatch**  
 
 Modify the stopwatch with the following extensions:   
+
 * Add an additional signal, up, to control the direction of counting. The stopwatch
 counts up when the up signal is asserted and counts down otherwise.
 
