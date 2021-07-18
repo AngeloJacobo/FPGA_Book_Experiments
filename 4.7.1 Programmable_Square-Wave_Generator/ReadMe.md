@@ -2,8 +2,8 @@ Created by: Angelo Jacobo
 Date: March 5,2021  
 
 # Inside the src folder are:  
-sqwave_gen.v -> square wave generator that can be controlled by m and n (ON duration=m* 100ns  OFF duration=n* 100ns)  
-sqwave_gen_TB.v -> See "sqwave_gen_TB_RESULT.txt" for the result of this testbench  
+* sqwave_gen.v -> square wave generator that can be controlled by m and n (ON duration=m* 100ns  OFF duration=n* 100ns)  
+* sqwave_gen_TB.v -> See "sqwave_gen_TB_RESULT.txt" for the result of this testbench  
 
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
