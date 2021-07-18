@@ -30,14 +30,16 @@ Both sensors becomes unblocked (i.e., the a and b signals are "00").
 
 Design a parking lot occupancy counter as follows:  
 
-1. Design an FSM with two input signals, a and b, and two output signals, enter and
-exit. The enter and exit signals assert one clock cycle when a car enters and one
-clock cycle when a car exits the lot, respectively.  
+1. Design an FSM with two input signals, a and b, and two output signals, enter and  
+exit. The enter and exit signals assert one clock cycle when a car enters and one  
+clock cycle when a car exits the lot, respectively.    
 
-2. Derive the HDL code for the FSM.  
+2. Derive the HDL code for the FSM.    
 
-3. Design a counter with two control signals, inc and dec, which increment and decrement the counter when asserted. Derive the HDL code. 
+3. Design a counter with two control signals, inc and dec, which increment and  
+decrement the counter when asserted. Derive the HDL code.   
 
-4. Combine the counter and the FSM and LED multiplexing circuit. Use two debounced
-pushbuttons to mimic operation of the two sensor outputs. Verify operation of the
-occupancy counter. 
+4. Combine the counter and the FSM and LED multiplexing circuit. Use two debounced  
+pushbuttons to mimic operation of the two sensor outputs. Verify operation of the  
+occupancy counter.   
+ 
