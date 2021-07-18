@@ -1,13 +1,16 @@
 Created by: Angelo Jacobo  
 Date: March 11,2021   
 
+[![](https://user-images.githubusercontent.com/87559347/126060254-c5ef91fe-310f-410c-b84c-894f0bc669db.png)](https://youtu.be/QcAZNghvx7Y)
+
 # Inside the src folder are:  
 * dual_edge_detector_MEALY.v -> Dual edge detector(ticks for one clock cycle for every rising and falling edge) using Mealy FSM.  
 * dual_edge_detector_MOORE.v -> Dual edge detector(ticks for one clock cycle for every rising and falling edge) using Moore FSM.  
-* dual_edge_detector_simpler.v -> Dual edge detector(ticks for one clock cycle for every rising and falling edge) using simple logic and does not need FSM.  
-dual_edge_detector_simpler_TEST.v -> Module that combines: dual_edge_detector_simpler, debouncing_button, and Led_mux.  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Every press of the "sw" will increment the counter by 2(since its a dual edge detector) 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;which will then be displayed on the seven-segments.
+* dual_edge_detector_simpler.v -> Dual edge detector(ticks for one clock cycle for every rising and falling edge) using 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; simple logic and does not need FSM.  
+* dual_edge_detector_simpler_TEST.v -> Module that combines: dual_edge_detector_simpler, debouncing_button, and Led_mux.  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Every press of the "sw" will increment the counter by 2(since its a dual edge detector) 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;which will then be displayed on the seven-segments.
 * debouncing_button.v -> I use a debouncing button for smoother button-reaction
 * Led_mux.v -> Module for seven-segment time-multiplexing circuit.
 * dual_edge_detector_simpler_TEST.ucf -> Constraint file for dual_edge_detector_simpler_TEST.v
