@@ -10,8 +10,8 @@ Note: This code is for simulation-purpose only and is not yet synthesized to any
 # TASK:
 **4.7.7 Stack**
 
-A stack is a last-in-first-out buffer in which the last stored data is retrieved first. Storing a
-data word to a stack is known as apush operation, and retrieving a data word from a stack
-is known as apop operation. The 110 signals of a stack are similar to those of a FIFO buffer
-except that we generally use the push and pop signals in place of the wr and rd signals.
-Design a stack using a register file.
+A stack is a last-in-first-out buffer in which the last stored data is retrieved first. Storing  
+a data word to a stack is known as apush operation, and retrieving a data word from a stack  
+is known as apop operation. The 110 signals of a stack are similar to those of a FIFO buffer  
+except that we generally use the push and pop signals in place of the wr and rd signals.  
+Design a stack using a register file.  
