@@ -1,6 +1,9 @@
 Created by: Angelo Jacobo  
 Date: March 7,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126058938-c0774499-ca61-495f-80a4-334ff8c6d97f.png)](https://youtu.be/SsllM09WXK8)
+
+
 # Inside the src folder are:  
 rotating_LED.v -> Module for rotating LED banner. Edit "W" with the number of desired letters,  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; then edit the "words" register with the desired letters,  
