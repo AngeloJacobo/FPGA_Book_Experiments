@@ -2,13 +2,13 @@ Created by: Angelo Jacobo
 Date: March 6,2021  
 
 # Inside the src folder are:  
-rotate_sq.v -> Rotating square circuit for 6 seven-segments with enable and clockwise/counterclockwise control  
-rotate_sq_TB.v -> Testbench with a period of 100ns per box  
-rotate_sq_TEST.v -> Module that combines the rotate_sq module and Led_mux module.   
+* rotate_sq.v -> Rotating square circuit for 6 seven-segments with enable and clockwise/counterclockwise control  
+* rotate_sq_TB.v -> Testbench with a period of 100ns per box  
+* rotate_sq_TEST.v -> Module that combines the rotate_sq module and Led_mux module.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; "en" for play/pause  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; "cw" for clockwise/counterclockwise control of the rotating boxes  
-Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
-rotate_sq_TEST.ucf -> Constraint file for rotate_sq_TEST.v  
+* Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
+* rotate_sq_TEST.ucf -> Constraint file for rotate_sq_TEST.v  
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
