@@ -5,7 +5,7 @@ Date: March 5,2021
 [![](https://user-images.githubusercontent.com/87559347/126055872-a8906c1e-07cf-47db-9d39-5e5b0024f5b8.png)](https://youtu.be/AOVehYq6Qng)
 
 
-Inside the src folder are:  
+# Inside the src folder are:  
 led_dimmer.v -> 4-bit resolution PWM controlled by "w"  
 led_dimmer_TB.v -> See the wave for the increasing duty cycle   
 led_dimmer_TEST.v -> Module that combines led_dimmer and Led_mux. External button increments "w" by one which   
@@ -16,8 +16,8 @@ led_dimmer_TEST.ucf -> Constraint file for led_dimmer_TEST.v
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
 
-TASK:  
-4.7.2 PWM and LED dimmer  
+# TASK:  
+**4.7.2 PWM and LED dimmer**  
 
 The duty cycle of a square wave is defined as the percentage of the on interval (i.e., logic 1)  
 in a period. A PWM (pulse width modulation) circuit can generate an output with variable  
