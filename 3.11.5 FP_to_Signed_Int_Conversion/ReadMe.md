@@ -2,10 +2,10 @@ Created by: Angelo Jacobo
 Date: Feb 20,2021  
 
 # Inside the src folder are:  
-fp_to_int.v -> 13-bit floating point to 8-bit signed-magnitude integer CONVERTER  
-fp_to_int_TB.v -> See "fp_to_int_TB_RESULT.txt" for the result of this testbench  
-int_to_fp.v -> 8-bit signed-magnitude integer to 13-bit floating point CONVERTER  
-int_to_fp_TB.v -> See "fp_to_int_TB_RESULT.txt" for the result of this testbench  
+* fp_to_int.v -> 13-bit floating point to 8-bit signed-magnitude integer CONVERTER  
+* fp_to_int_TB.v -> See "fp_to_int_TB_RESULT.txt" for the result of this testbench  
+* int_to_fp.v -> 8-bit signed-magnitude integer to 13-bit floating point CONVERTER  
+* int_to_fp_TB.v -> See "fp_to_int_TB_RESULT.txt" for the result of this testbench  
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
 
