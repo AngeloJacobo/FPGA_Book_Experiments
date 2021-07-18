@@ -2,12 +2,12 @@ Created by: Angelo Jacobo
 Date: Feb 10,2021  
 
 # Inside the src folder are:  
-binary_decoder_2x4.v -> 2-to-4 Binary decoder. The sum-of-products from the table is used as the overall logic.  
-binary_decoder_3x8.v -> Uses two binary_decoder_2x4 modules to make a 3-to-8 decoder.  
-binary_decoder_4x16.v -> Uses 4 binary_decoder_2x4 modules to make a 4-to-16 decoder.  
-binary_decoder_2x4_TB.v -> See "binary_decoder_2x4_TB_RESULT.txt" for the result of this testbench.  
-binary_decoder_3x8_TB.v -> See "binary_decoder_3x8_TB_RESULT.txt" for the result of this testbench.  
-binary_decoder_4x16_TB.v -> See "binary_decoder_4x16_TB_RESULT.txt" for the result of this testbench.  
+* binary_decoder_2x4.v -> 2-to-4 Binary decoder. The sum-of-products from the table is used as the overall logic.  
+* binary_decoder_3x8.v -> Uses two binary_decoder_2x4 modules to make a 3-to-8 decoder.  
+* binary_decoder_4x16.v -> Uses 4 binary_decoder_2x4 modules to make a 4-to-16 decoder.  
+* binary_decoder_2x4_TB.v -> See "binary_decoder_2x4_TB_RESULT.txt" for the result of this testbench.  
+* binary_decoder_3x8_TB.v -> See "binary_decoder_3x8_TB_RESULT.txt" for the result of this testbench.  
+* binary_decoder_4x16_TB.v -> See "binary_decoder_4x16_TB_RESULT.txt" for the result of this testbench.  
 
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
