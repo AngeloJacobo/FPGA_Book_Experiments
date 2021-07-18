@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: March 8,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126059676-085c641c-19ce-45cb-8101-d65b44adc691.png )](https://youtu.be/QK5GNwCojkQ)
+
 # Inside the src folder are:  
 * Enhanced_Stopwatch.v -> Stopwatch with enable and can count up and down.  
 * EnhancedStopwatch_TB.v -> Testbench that ticks every 50ns with a 100MHZ clock  
