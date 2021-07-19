@@ -18,6 +18,19 @@ Date: April 19,2021
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
+# UML Chart [Overall]: 
+![UML_chart(overall)](https://user-images.githubusercontent.com/87559347/126108750-fec122a5-db89-4ab1-bfae-a388dd825c88.jpg)
+
+# UML Chart [Top Logic]: 
+![UML_chart(top_logic)](https://user-images.githubusercontent.com/87559347/126108759-f8ea2c83-07a0-491a-b4ae-44e9c351accf.jpg)
+
+
+
+# UML Chart [Receiver]: 
+![UML_chart(receiver)](https://user-images.githubusercontent.com/87559347/126108758-626d450b-6c56-4d95-97c9-dcd0f909fefc.jpg)
+
+# UML Chart [Transmitter]: 
+![UML_chart(transmitter)](https://user-images.githubusercontent.com/87559347/126108764-9e3f4175-0cff-4ef7-81f1-9854a58a3610.jpg)
 
 
 # TASK:
@@ -25,7 +38,7 @@ Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specif
 
 The alternative to the customized UART is to include all features in design and to dynamically configure the UART as needed.   
 Consider a full-featured UART that uses additional input signals to specify the baud rate, type of parity bit,   
-and the numbers of data bits and stop bits. The UART also includes an error signal. In addition to the I10 signals of the  
+and the numbers of data bits and stop bits. The UART also includes an error signal. In addition to the I/O signals of the  
 uart-top design in Listing 8.4, the following signals are required:  
 
 * bd-rate: 2-bit input signal specifying the baud rate, which can be 1200,2400,4800,
@@ -47,9 +60,9 @@ or 9600 baud
 
 3. Revise the UART transmitter code to accommodate the required extensions. 
 
-4. Revise the top-level UART code and the verification circuit. Use the onboard switches
-for the additional input signals and three LEDs for the error signals. Synthesize the
-verification circuit.
+4. Revise the top-level UART code and the verification circuit. Use the onboard switches  
+for the additional input signals and three LEDs for the error signals. Synthesize the  
+verification circuit.  
 
 5. Create different configurations in HyperTerminal and verify operation of the UART
 circuit. 
