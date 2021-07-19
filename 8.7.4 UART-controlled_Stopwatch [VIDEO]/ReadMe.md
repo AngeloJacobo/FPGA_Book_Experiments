@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: April 21,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126116763-46bf65bd-38bd-4adb-b053-87ce6e77434c.png)](https://youtu.be/OVaBcou2UMU )
+
 # Inside the src folder are:  
 * uart_plus_stopwatch.v -> Combines the Enhanced_Stopwatch(from experiment 4.7.6), uart,, and LED-mux modules.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "c" or "C" for clear  
