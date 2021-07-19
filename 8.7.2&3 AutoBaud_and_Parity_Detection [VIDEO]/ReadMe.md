@@ -7,7 +7,7 @@ Date: April 19,2021
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; type(none,even,or odd) of the receiving data bytes. The ASCII input must be "x" followed  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; by "p" when in detection mode.  
 * uart_test.v -> Simple fpga test for the top module. Pressing the btn2 will add 1 to the received value(which is an ASCII)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The ASCII input must be "x" followed then transmit it back to terminal.  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The ASCII input must be "x" followed by p then transmit it back to terminal.  
 * autobaud_plus_autoparity.v -> FSM logic for baud-rate and parity detection   
 * uart_rx.v -> Uart receiver   
 * uart.tx -> Uart transmitter  
