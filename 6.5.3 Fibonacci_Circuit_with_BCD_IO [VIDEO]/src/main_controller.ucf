@@ -1,0 +1,22 @@
+NET "clk" LOC = T8 | TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+
+NET rst_n                  LOC = L3 | IOSTANDARD = "LVCMOS33";         ## reset pushbutton
+NET sw1              		  LOC = C3 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET sw2		                LOC = D3 | IOSTANDARD = "LVCMOS33";       ## KEY2
+
+NET seg_out<6>            LOC = C7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<5>            LOC = E6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+NET seg_out<4>            LOC = C5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<3>            LOC = F7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<2>            LOC = D6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<1>            LOC = E7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<0>            LOC = D5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<7>            LOC = C6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+NET sel_out<5>             LOC = D9  | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<4>             LOC = E10 | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<3>             LOC = F10 | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<2>             LOC = F9 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET sel_out<1>             LOC = E8 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET sel_out<0>             LOC = D8 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+
