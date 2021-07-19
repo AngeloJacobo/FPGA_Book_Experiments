@@ -1,0 +1,11 @@
+NET "clk" LOC = T8 | TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+
+NET rst_n                  LOC = L3 | IOSTANDARD = "LVCMOS33";         ## reset pushbutton
+
+NET ps2c              LOC = B5 | IOSTANDARD = "LVCMOS33"; 	
+NET ps2d              LOC = A4 | IOSTANDARD = "LVCMOS33"; 	
+
+NET key0               LOC = C3 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET key1              LOC = D3 | IOSTANDARD = "LVCMOS33";       ## KEY2
+NET key2                LOC = E4 | IOSTANDARD = "LVCMOS33";       ## KEY3
