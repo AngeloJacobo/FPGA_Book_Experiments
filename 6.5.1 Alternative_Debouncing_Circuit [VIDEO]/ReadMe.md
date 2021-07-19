@@ -14,6 +14,8 @@ Date: March 18,2021
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
+![UML_chart](https://user-images.githubusercontent.com/87559347/126088550-1017673d-1081-4b59-b477-11082e92336b.jpg)
+
 
 # TASK:
 **6.5.1 Alternative debouncing circuit**  
