@@ -1,6 +1,9 @@
 Created by: Angelo Jacobo   
 Date: March 20,2021  
 
+
+[![](https://user-images.githubusercontent.com/87559347/126097264-a09cfaaa-dc9a-401f-8d77-179932dc9396.png )]( https://youtu.be/QnqLJGQzj78)
+
 # Inside the src folder are:
 * reaction_timer.v -> Combines bin2bcd and LED_mux modules. "clr" forces it to go to initial state. When "start" is pressed,  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;wait for the the LEDs to turn on (random-delay from 2s to 15s) then press "stop".  
