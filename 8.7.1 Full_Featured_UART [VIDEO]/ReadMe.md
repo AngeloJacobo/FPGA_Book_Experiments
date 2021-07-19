@@ -1,17 +1,19 @@
-Created by: Angelo Jacobo 
-Date: April 19,2021
+Created by: Angelo Jacobo   
+Date: April 19,2021  
 
-Inside the src folder are:
-top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, and LED_mux. Lets you choose 
-			the baudrate, number of databits, stopbits, and type of parity. btn0 is for choosing and btn1 is the enter key.   
-uart_test.v -> Simple fpga test for the top module. Pressing the btn2 will add 1 to the received value(which is an ASCII) then transmit it back to terminal.
-uart_rx.v -> Uart receiver
-uart.tx -> Uart transmitter
-fifo.v -> Used by uart_rx to store the received value. Also used by uart_tx to store the values that is about to be transmitted
-baud_generator.v -> A free-running counter that ticks every 1/16th of the baudrate
-debounce_explicit.v -> Debounce circuit
-LED_mux.v -> Time-multiplexing module for the seven-segments
-uart_test.ucf -> Constraint file for uart_test
+# Inside the src folder are:  
+* top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, and LED_mux. Lets you choose   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the baudrate, number of databits, stopbits, and type of parity. btn0 is for choosing   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and btn1 is the enter key.    
+* uart_test.v -> Simple fpga test for the top module. Pressing the btn2 will add 1 to the received value(which is an ASCII) 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;then transmit it back to terminal.
+* uart_rx.v -> Uart receiver
+* uart.tx -> Uart transmitter
+* fifo.v -> Used by uart_rx to store the received value. Also used by uart_tx to store the values that is about to be transmitted
+* baud_generator.v -> A free-running counter that ticks every 1/16th of the baudrate
+* debounce_explicit.v -> Debounce circuit
+* LED_mux.v -> Time-multiplexing module for the seven-segments
+* uart_test.ucf -> Constraint file for uart_test
 
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
