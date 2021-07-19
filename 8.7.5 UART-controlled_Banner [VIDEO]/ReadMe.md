@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: April 23,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126120218-a4c4de6d-d209-4426-a828-46775054c7ba.png )](https://youtu.be/deStmV9Hirs )
+
 # Inside the src folder are:  
 * rotating_LED.v -> Shifts the banner of numbers continuously. The limit is 10 numbers(default is from 0 to 9)   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "g" or "G" for go  
