@@ -7,8 +7,8 @@ Date: March 27,2021
 * monitor.v -> Monitors the input and resulting output. Outputs "ERROR" when the real output and the desired output is not equal  
 * universal_binary_counter_TB.v -> See" universal_binary_counter_TB_RESULT.txt" for the result of this testbench  
 
-Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.
-Note: The first error is not counted as real error since the main module is not yet initialize
+Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
+Note: The first error is not counted as real error since the main module is not yet initialize  
 
 # TASK:
 **7.7.6 Enhanced binary counter monitor**  
