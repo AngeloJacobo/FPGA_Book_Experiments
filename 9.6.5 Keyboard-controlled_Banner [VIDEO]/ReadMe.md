@@ -28,6 +28,7 @@ control its operation and dynamically modify the digits in the banner:
 * When a decimal digit (i.e., 0, 1, . . . , 9) key is pressed, the banner will be modified.
 The banner can be treated as a 10-word FIFO buffer. The new digit will be inserted at
 the beginning (i.e., the leftmost position) of the banner, and the rightmost digit will
-be shifted out and discarded.
-* All other keys will be ignored.
+be shifted out and discarded.  
+
+All other keys will be ignored.  
 Design the new rotating LED banner, synthesize the circuit, and verify its operation. 
