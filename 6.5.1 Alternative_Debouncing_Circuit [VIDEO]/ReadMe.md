@@ -2,11 +2,11 @@ Created by: Angelo Jacobo
 Date: March 18,2021  
 
 # Inside the src folder are:  
-* debounce.v -> A debouncing module that asserts for the first rising edge of the button then stay there  
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; for 100ms before deasserting instantly on the falling edge.   
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;It will then wait for another 100ms before asserting on the next rising edge  
+* debounce.v -> A debouncing module that asserts for the first rising edge of the button then stay there for 100ms before
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; deasserting instantly on the falling edge. It will then wait for another 100ms before asserting on the next rising edge 
 * debounce_TB.v -> A simple testbench to ensure the operation of the debounce module  
-* debouncing_TEST.v -> Module that combines debounce and Led_mux. Every press of the "sw" will increment the counter by 1 which will then be displayed on the seven-segments.  
+* debouncing_TEST.v -> Module that combines debounce and Led_mux. Every press of the "sw" will increment the counter by 1 
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;which will then be displayed on the seven-segments.  
 * Led_mux.v -> Module for seven-segment time-multiplexing circuit.  
 * debouncing_TEST.ucf -> Constraint file for debouncing_TEST.v  
 
@@ -14,8 +14,7 @@ Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specif
 
 
 # TASK:
-**6.5.1 Alternative debouncing circuit**
-
+**6.5.1 Alternative debouncing circuit**  
 Consider the alternative debouncing circuit in Experiment 5.5.2. Redesign the circuit using  
 the RT methodology:  
 
