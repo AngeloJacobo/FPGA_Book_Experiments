@@ -12,10 +12,10 @@ Date: March 18,2021
 * Led_mux.v -> Module for seven-segment time-multiplexing circuit.   
 * debouncing_TEST.ucf -> Constraint file for debouncing_TEST.v   
 
-Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
+Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
-![UML_chart](https://user-images.githubusercontent.com/87559347/126088550-1017673d-1081-4b59-b477-11082e92336b.jpg)
-
+# UML Chart:
+![image](https://user-images.githubusercontent.com/87559347/126088732-ce4876e7-72b6-4e5b-a43b-868496d4704c.png)
 
 # TASK:
 **6.5.1 Alternative debouncing circuit**  
