@@ -1,12 +1,14 @@
-Created by: Angelo Jacobo 
+Created by: Angelo Jacobo   
 Date: April 28,2021  
+
+[![]( https://user-images.githubusercontent.com/87559347/126127572-11858f4b-1875-4e64-be35-5f51f6d1173b.png)]( https://youtu.be/v5fC_bLuPBw)
 
 # Inside the src folder are:  
 * kb_interface.v -> Combines the Enhanced_Stopwatch(from experiment 4.7.6), kb, and LED-mux modules.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "c" for clear  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "g" for go  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "p" for pause 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "u"  to reverse counting  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "p" for pause   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input of "u"  to reverse counting   
 * Enhanced_Stopwatch.v -> Stopwatch with enable/stop and can count up/down.  
 * kb.v -> stores bytes of data retrieved from keyboard   
 * LED_mux.v -> Time-multiplexing module for the seven-segments   
