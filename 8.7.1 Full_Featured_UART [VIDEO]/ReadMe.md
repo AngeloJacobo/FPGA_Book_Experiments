@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: April 19,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126110123-c6780d4a-9dd4-4dfd-869b-d4e98757cff1.png )]( https://youtu.be/7I20f3k9QAo)
+
 # Inside the src folder are:  
 * top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, and LED_mux. Lets you choose   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the baudrate, number of databits, stopbits, and type of parity. btn0 is for choosing   
@@ -19,7 +21,7 @@ Date: April 19,2021
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
 # UML Chart [Overall]: 
-![UML_chart(overall)](https://user-images.githubusercontent.com/87559347/126108750-fec122a5-db89-4ab1-bfae-a388dd825c88.jpg)
+![image](https://user-images.githubusercontent.com/87559347/126109609-816157f0-61c3-443b-982b-72c0c355c243.png)
 
 # UML Chart [Top Logic]: 
 ![UML_chart(top_logic)](https://user-images.githubusercontent.com/87559347/126108759-f8ea2c83-07a0-491a-b4ae-44e9c351accf.jpg)
