@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: April 28,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126121564-24e5d9ef-a09c-45b1-a5bc-7e809452f465.png )](https://youtu.be/fsxyEOVrD84 )
+
 # Inside the src folder are:  
 * kb_test.v -> Combines kb, ascii, and uart modules. The received packets from ps2-keyboard is transmitted to pc via UART.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The transmitted data is already converted to ASCII.  
@@ -12,6 +14,8 @@ Date: April 28,2021
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
 
+# UML Chart:  
+![UML_chart](https://user-images.githubusercontent.com/87559347/126121101-db5c9c38-404e-485f-8777-af2ce3d15a37.jpg)   
 
 
 # TASK:
