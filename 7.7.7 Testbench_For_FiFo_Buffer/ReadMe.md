@@ -8,7 +8,7 @@ Date: March 27,2021
 * fifo_TB.v -> See"fifo_TB_RESULT.txt" for the result of this testbench  
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
-Note: The first block of errors are due to uninitialize fifo module. The second and third block of errors are just due to the
+Note: The first block of errors are due to uninitialize fifo module. The second and third block of errors are just due to the  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; asynchronous read operation during empty or full state and can be ignored.
 
 # TASK:
