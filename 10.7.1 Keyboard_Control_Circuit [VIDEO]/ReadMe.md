@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: May 10,2021  
 
+[![]( https://user-images.githubusercontent.com/87559347/126130795-c51d12d9-fe6e-446e-86d9-07ebf67b43b3.png)](https://youtu.be/O-o4zhvEyXw )
+
 # Inside the src folder are:  
 * kb_control_circuit.v -> Uses the ps2_tx module to communicate with a ps/2 keyboard.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Press key0 to turn-on the num-lock led  
