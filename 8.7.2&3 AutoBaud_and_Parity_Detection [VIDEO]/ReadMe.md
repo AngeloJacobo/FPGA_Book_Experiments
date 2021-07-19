@@ -2,7 +2,7 @@ Created by: Angelo Jacobo
 Date: April 19,2021  
 
 # Inside the src folder are:  
-* top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, LED_mux, bin2bcd, and 
+* top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, LED_mux, bin2bcd, and  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;autobaud_plus_autoparity modules. Detects the baudrate(standard or custom) and parity   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; type(none,even,or odd) of the receiving data bytes. The ASCII input must be "x" followed  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; by "p" when in detection mode.  
@@ -25,7 +25,7 @@ Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specif
 
 
 
-# TASKS(I Combines the two tasks):  
+# TASKS(I Combined the two tasks):  
 **8.7.2 UART with an automatic baud rate detection circuit**
 
-**8.7.3 UART with an automatic baud rate and parity detection circuit **
+**8.7.3 UART with an automatic baud rate and parity detection circuit**
