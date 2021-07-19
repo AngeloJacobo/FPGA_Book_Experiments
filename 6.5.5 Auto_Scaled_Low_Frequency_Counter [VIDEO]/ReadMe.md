@@ -1,6 +1,9 @@
 Created by: Angelo Jacobo   
 Date: March 19,2021  
 
+
+[![](https://user-images.githubusercontent.com/87559347/126093764-a458a61c-2c31-40b8-9c9f-9af2a3c026dd.png )](https://youtu.be/Ehs9XNcmrOc )
+
 # Inside the src folder are:  
 * master_controller.v -> Combines period_counter, div, bin2bcd, adjust, and LED-mux modules. The frequency of the input signal 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;is displayed on the seven-segments.  
