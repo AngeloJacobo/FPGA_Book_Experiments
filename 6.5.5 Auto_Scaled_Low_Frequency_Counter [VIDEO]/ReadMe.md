@@ -1,12 +1,14 @@
 Created by: Angelo Jacobo   
 Date: March 19,2021  
 
-Inside the src folder are:  
-* master_controller.v -> Combines period_counter, div, bin2bcd, adjust, and LED-mux modules. The frequency of the input signal is displayed on the seven-segments.
-				Note: Max frequency: 1Hz (1s)
-				      Min Frequency: 500KHz (2us)
-* master_controller_TEST.v -> Generates signal to be used as input to master_controller module. Edit the localparam "period" for your desired output frequency.
-					Output signal is also connected to the fpga board pins to be tested on the oscilloscope.
+# Inside the src folder are:  
+* master_controller.v -> Combines period_counter, div, bin2bcd, adjust, and LED-mux modules. The frequency of the input signal 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;is displayed on the seven-segments.  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Max frequency: 1Hz (1s)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Min Frequency: 500KHz (2us)  
+* master_controller_TEST.v -> Generates signal to be used as input to master_controller module. Edit the localparam "period" for  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;your desired output frequency.Output signal is also connected to the fpga board pins to be 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;tested on the oscilloscope.
 * period_counter.v -> counts the period of the signal
 * div.v -> divides the period output from 1 (reciprocal the period to get frequency)
 * bin2bcd.v -> converts frequency value from div to bcd format
@@ -15,7 +17,10 @@ Inside the src folder are:
 * master_controller_TEST.ucf -> Constraint file for master_controller_TEST.v
 
 
-# Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
+Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
+
+# UML Chart:  
+![UML_chart](https://user-images.githubusercontent.com/87559347/126092102-42d5e856-ef83-42da-b1eb-9a086d47ee0d.jpg)
 
 
 
@@ -32,15 +37,16 @@ to increase to 9999 Hz and still maintain at least four-digit accuracy.
 
 Using a microsecond tick introduces more than four accuracy digits for low-frequency  
 input, and the number must be shifted and truncated to be displayed on the seven-segment  
-LED. An auto-scaled low-frequency counter performs the adjustment automatically, displays the four most significant digits,   
-and places a decimal point in the proper place. For example, according to their range, the frequency measurements will be shown as " 1.234",  
+LED. An auto-scaled low-frequency counter performs the adjustment automatically, displays  
+the four most significant digits, and places a decimal point in the proper place. For  
+example, according to their range, the frequency measurements will be shown as " 1.234",   
 " 12.34", "123.4", or "1234".  
 
-The auto-scaled low-frequency counter needs an additional BCD adjustment circuit. It  
+The auto-scaled low-frequency counter needs an additional BCD adjustment circuit. It   
 first checks whether the most significant BCD digit (i.e., the four MSBs) of a BCD sequence  
-is zero. If this is the case, the circuit shifts the BCD sequence to the left four positions and  
-increments the decimal point counter. The operation is repeated until the most significant  
-BCD digit is not "0000".  
+is zero. If this is the case, the circuit shifts the BCD sequence to the left four positions  
+and increments the decimal point counter. The operation is repeated until the most significant   
+BCD digit is not "0000".   
 
 The complete auto-scaled low-frequency counter can be implemented as follows:  
 
