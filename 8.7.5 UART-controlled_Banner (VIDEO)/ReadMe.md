@@ -15,7 +15,7 @@ Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specif
 
 
 
-# TASKS:
+# TASK:
 **8.7.5 UART-controlled rotating LED banner**
 
 Consider the rotating LED banner circuit in Experiment 4.7.5. With the UART, we can  
