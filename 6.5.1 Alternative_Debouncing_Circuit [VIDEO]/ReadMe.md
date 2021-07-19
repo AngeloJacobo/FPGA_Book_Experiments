@@ -4,7 +4,7 @@ Date: March 18,2021
 [![](https://user-images.githubusercontent.com/87559347/126088428-bb46ac5e-3cb7-46e5-af15-07fd6caccc48.png )](https://youtu.be/F9giVyWyruE )
 
 # Inside the src folder are:  
-* debounce.v -> A debouncing module that asserts for the first rising edge of the button then stay there for 100ms before  
+* debounce.v -> A debouncing module that asserts on the first rising edge of the button then stay there for 100ms before  
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;deasserting instantly on the falling edge. It will then wait for another 100ms before asserting on the next rising edge.  
 * debounce_TB.v -> A simple testbench to ensure the operation of the debounce module.   
 * debouncing_TEST.v -> Module that combines debounce and Led_mux modules. Every press of the "sw" will increment the counter by 1.  
