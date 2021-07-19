@@ -12,7 +12,7 @@ Date: March 20,2021
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
-# UML Chart  
+# UML Chart:  
 ![UML_chart](https://user-images.githubusercontent.com/87559347/126094255-1bf092e8-c713-4ed7-b2c5-aab7d781d404.jpg)
 
 
