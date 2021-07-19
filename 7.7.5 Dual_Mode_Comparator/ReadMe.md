@@ -2,7 +2,8 @@ Created by: Angelo Jacobo
 Date: March 27,2021  
 
 # Inside the src folder are:  
-dual_comparator.v -> mode=1 converts the inputs(a & b) to signed while mode=0 converts the inputs to unsigned."agbt" is asserted if a is greater than b  
+dual_comparator.v -> mode(1) converts the inputs(a & b) to signed while mode(0) converts the inputs to unsigned.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"agbt" is asserted if a is greater than b  
 fibo_TB.v -> See the waveform of this testbench.  
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
