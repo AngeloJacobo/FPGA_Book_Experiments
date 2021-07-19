@@ -2,7 +2,7 @@ Created by: Angelo Jacobo
 Date: March 18,2021  
 
 # Inside the src folder are:  
-* main_controller.v -> Module that combines bcd_counter,bcd2bin, fibonacci, bin2bcd, debounce_explicit, and LED-mux module.   
+* main_controller.v -> Module that combines bcd_counter, bcd2bin, fibonacci, bin2bcd, debounce_explicit, and LED-mux modules.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"sw1" increments value of i, "sw2" switches display from value of i to the value of i-th fibonacci.  
 * debounce_explicit.v -> debounce module for "sw1" and "sw2"
 * bcd_counter.v -> counts in bcd format and is used as the "i" value for the fibonacci. 
@@ -12,12 +12,13 @@ Date: March 18,2021
 * LED_mux.v -> time multiplexing module for  seven segment. Input comes from the output of bin2bcd.
 * main_controller.ucf -> Constraint file for main_controller.v  
 
-Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
-
+Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.  
+# UML Chart:
+![UML_chart](https://user-images.githubusercontent.com/87559347/126089916-f837c7bb-c8f7-435b-9313-5f1199cffb6a.jpg)
 
 
 # TASK:
-**6.5.3 Fibonacci circuit with BCD 110: design approach 1**
+**6.5.3 Fibonacci circuit with BCD I/O: design approach 1**
 
 To make the Fibonacci circuit more user friendly, we can modify the circuit to use the BCD  
 format for the input and output. Assume that the input is an 8-bit signal in BCD format  
