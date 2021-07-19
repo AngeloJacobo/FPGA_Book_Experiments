@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: April 19,2021  
 
+[![](https://user-images.githubusercontent.com/87559347/126114856-07dc486c-6a33-42db-b632-a64c81234c04.png)]( https://youtu.be/79ZCUKdt35I)
+
 # Inside the src folder are:  
 * top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, LED_mux, bin2bcd, and  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;autobaud_plus_autoparity modules. Detects the baudrate(standard or custom) and parity   
