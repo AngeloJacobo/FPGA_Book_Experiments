@@ -1,5 +1,7 @@
 Created by: Angelo Jacobo   
-Date: March 27,2021  
+Date: March 27,2021 
+
+[![]( https://user-images.githubusercontent.com/87559347/126104959-c2c789e6-0437-4e5a-bcc4-cbd48e2b8043.png)](https://youtu.be/SdC0M2zq55g )
 
 # Inside the src folder are: 
 * alt_bcd_counter.v -> BCD_counter but with less variables by combining the blocking and non-blocking assignments in 1 always-block.  
