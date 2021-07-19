@@ -1,7 +1,7 @@
 Created by: Angelo Jacobo   
 Date: April 21,2021  
 
-[![](https://user-images.githubusercontent.com/87559347/126116763-46bf65bd-38bd-4adb-b053-87ce6e77434c.png)](https://youtu.be/OVaBcou2UMU )
+[![](https://user-images.githubusercontent.com/87559347/126116911-3dceac24-2b4a-405e-ac2a-64242bae506f.png)](https://youtu.be/OVaBcou2UMU )
 
 # Inside the src folder are:  
 * uart_plus_stopwatch.v -> Combines the Enhanced_Stopwatch(from experiment 4.7.6), uart,, and LED-mux modules.  
