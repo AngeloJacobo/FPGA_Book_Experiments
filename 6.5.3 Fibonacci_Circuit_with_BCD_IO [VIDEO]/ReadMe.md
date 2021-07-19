@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: March 18,2021  
 
+[![]( https://user-images.githubusercontent.com/87559347/126094517-a22f21d2-a698-4dfe-90c7-cd722fdc3ca5.png)](https://youtu.be/0ZiLcLC030M )
+
 # Inside the src folder are:  
 * main_controller.v -> Module that combines bcd_counter, bcd2bin, fibonacci, bin2bcd, debounce_explicit, and LED-mux modules.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"sw1" increments value of i, "sw2" switches display from value of i to the value of i-th fibonacci.  
