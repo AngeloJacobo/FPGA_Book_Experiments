@@ -1,7 +1,7 @@
 Created by: Angelo Jacobo   
 Date: April 19,2021  
 
-[![](https://user-images.githubusercontent.com/87559347/126110123-c6780d4a-9dd4-4dfd-869b-d4e98757cff1.png )]( https://youtu.be/7I20f3k9QAo)
+[![](https://user-images.githubusercontent.com/87559347/126117125-cd41c6b4-d564-4652-a23e-5c6cb954ad40.png)]( https://youtu.be/7I20f3k9QAo)
 
 # Inside the src folder are:  
 * top_module.v -> Combines uart_rx, uart_tx, fifo, baud_generator, debounce_explicit, and LED_mux. Lets you choose   
