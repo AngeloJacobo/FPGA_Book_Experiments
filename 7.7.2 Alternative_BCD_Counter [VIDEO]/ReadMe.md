@@ -5,8 +5,8 @@ Date: March 27,2021
 
 # Inside the src folder are: 
 * alt_bcd_counter.v -> BCD_counter but with less variables by combining the blocking and non-blocking assignments in 1 always-block.  
-* main_controller.v -> Combines the alt_bcd_counter and LED_mux. A 3-digit stopwatch(counts from 00.0 to 99.9 seconds) with pause/play.  
-* LED_mux.v -> time multiplexing module for  the seven-segment LEDs.  
+* main_controller.v -> Combines the alt_bcd_counter and LED_mux modules. A 3-digit stopwatch(counts from 00.0 to 99.9 seconds) with pause/play.  
+* LED_mux.v -> time multiplexing module for the seven-segment LEDs.  
 * main_controller.ucf -> Constraint file for main_controller.v  
 
 
