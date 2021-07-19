@@ -1,0 +1,32 @@
+  NET "clk" LOC = T8 | TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+
+NET rst_n                  LOC = L3 | IOSTANDARD = "LVCMOS33";         ## reset pushbutton
+NET sw                LOC = C3 | IOSTANDARD = "LVCMOS33";       ## KEY1
+
+NET seg_out<6>            LOC = C7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<5>            LOC = E6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+NET seg_out<4>            LOC = C5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<3>            LOC = F7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<2>            LOC = D6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<1>            LOC = E7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<0>            LOC = D5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<7>            LOC = C6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+NET sel_out<5>             LOC = D9  | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<4>             LOC = E10 | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<3>             LOC = F10 | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<2>             LOC = F9 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET sel_out<1>             LOC = E8 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET sel_out<0>             LOC = D8 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+
+NET signal<0>                LOC = C9 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<1>                LOC = D16 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<2>               LOC = C15 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<3>                LOC = B15 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<4>                LOC = A14 |IOSTANDARD = "LVCMOS33";       ## KEY1
+
+NET signal<5>                LOC = E11 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<6>                LOC = E15 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<7>                LOC = C16 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<8>                LOC = B16 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET signal<9>                LOC = B14 | IOSTANDARD = "LVCMOS33";       ## KEY1
