@@ -1,9 +1,12 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126275882-55d28a7c-20f3-4e50-9d38-c563e335fdc5.png)](https://youtu.be/SKdQWoCVbnU)
+
 # Inside the src folder are:
 * top_module.v -> Combines the vga_core and two_balls_in_a_box modules. Ball bounces inside a 100x100 box.  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] is for changing  ball speed, key[0] for changing location of ball(randomly)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] is for changing  ball speed,  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[0] for changing location of ball(randomly)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The balls follow the laws of physics when colliding.  
 * two_balls_in_a_box.v -> Logic for two self-bouncing balls. The balls bounce inside a 100x100 box.  
 * vga_core.v -> VGA controller for a 640x480 @60Hz resolution.  
