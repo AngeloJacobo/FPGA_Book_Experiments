@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: June 20,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126273193-e4d22fed-1cce-43b1-8a4c-6ec13fa92519.png)](https://youtu.be/i9pqRbqkYB4)
+
 # Inside the src folder are:    
 * top_module.v -> Combines the vga_core_640x480 , vga_core_800x600 , grid_pixel, and 25MHz clk DCM modules.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Alternates between VGA and SVGA mode when "key" is pressed. Generates 100x100 pixel  
