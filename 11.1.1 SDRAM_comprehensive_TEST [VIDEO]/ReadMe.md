@@ -25,3 +25,6 @@ Chapter 11 of this book is only about SRAM(Static RAM) controller. But my board 
 I instead did here. Beware that SDRAM controller **IS A COMPLETELY DIFFERENT LEVEL** compared to making an SRAM controller.    
 
 I added a lot of comments on my code (especially the the sdram_controller.v) so try to understand the whole logic first before trying to make your own SDRAM controller.   
+
+# UML Chart:  
+![UMLchart_TestLogic](https://user-images.githubusercontent.com/87559347/126262042-581008e8-0190-4b0a-8953-acbaf1f71928.jpg)
