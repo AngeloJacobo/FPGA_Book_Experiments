@@ -1,11 +1,14 @@
 Created by: Angelo Jacobo     
 Date: June 20,2021    
 
+[![image](https://user-images.githubusercontent.com/87559347/126290074-ef69b8b9-7bcf-4e2d-b4a8-21c4283bcfc1.png)](https://youtu.be/e3mvBPzMrbs)
+
 # Inside the src folder are:  
 * vga_test.v -> Uses the vga_core module to adjust the visible screen position.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[0] is for selecting vertical or horizontal mode adjustment.  
 		 	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[2:1] is for moving the screen up/down(if vertical mode) or left/right(if horizontal mode)  
-* vga_core.v -> VGA controller for a 640x480 @60Hz resolution with a variable border size(but the total sum of border/blanking time is preserved).   
+* vga_core.v -> VGA controller for a 640x480 @60Hz resolution with a variable border size(but the total sum of border/blanking
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; time is preserved).   
 * vga_test.ucf -> Constraint file for top_module.v   
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
