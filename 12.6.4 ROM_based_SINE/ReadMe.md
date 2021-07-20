@@ -18,7 +18,7 @@ that the desired implementation requires 10-bit input resolution [ there are 102
 points between the input range of 0 and 2pi and 8-bit output resolution [i.e., there are 256   
 (2^8) points between the output range of -1 and +I].   
 
-Because of the symmetry of the sin function, we only need to construct a 28-by-7 table   
+Because of the symmetry of the sin function, we only need to construct a 2^8-by-7 table   
 for the first quadrant (i.e., between 0 and pi/2) and use simple pre- and postprocessing circuits   
 to obtain the values in other quadrants. Design this circuit as follows:   
 
