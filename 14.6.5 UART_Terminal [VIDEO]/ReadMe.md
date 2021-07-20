@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: June 30,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126291251-291c525b-4d09-42f8-bdb0-266abfd94d8c.png)](https://youtu.be/QoKjleIENSs)
+
 # Inside the src folder are:  
 * uart_terminal.v -> Combines the vga_core, full_screen_gen, and uart modules. The screen  
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;will echo the text on the pc serial terminal. The screen automatically "scroll-up"  
@@ -21,7 +23,7 @@ on a monitor. When connected to the PC's serial port, it should echo the text on
 HypterTerminal. The detailed specifications are:   
 
 * A cursor is used to indicate the current location. 
-* The screen starts a new line when a "carriage return" code (Od16) is received.
+* The screen starts a new line when a "carriage return" code (Od_16) is received.
 * A line wraps around (i.e., starts a new line) after 80 characters. 
 * When the cursor reaches the bottom of the screen (i.e., the last line), the first line will 
 	be discarded and all other lines move up (i.e., scroll up) one position.
