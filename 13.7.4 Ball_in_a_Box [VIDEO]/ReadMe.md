@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126274629-4868655f-5545-461f-b381-1582babaff98.png)](https://youtu.be/qSH4bVYS7y8)
+
 # Inside the src folder are:
 * top_module.v -> Combines the vga_core and ball_in_a_box modules. Ball bounces inside a 256x256 box  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] is for changing  ball speed,  
