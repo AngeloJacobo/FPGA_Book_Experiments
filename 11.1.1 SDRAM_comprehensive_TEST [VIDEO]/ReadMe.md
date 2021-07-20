@@ -5,10 +5,10 @@ Date: June 8,2021
 * sdram_test.v -> Comprehensive testing circuit for SDRAM.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key<0>: Writes data to all 2^24 addresses of SDRAM  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key<1> Reads the data of 2^24 addresses of SDRAM and checks if an   
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;error occured(unmatched read data to the written data)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;error occured(unmatched read data to the written data)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key<2> Injects wrong data to SDARM using UART interface  
-				First digit of Seven-segment LED is the error read. Second digit is the  
-				number of already injected errors(via UART) 		  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;First digit of Seven-segment LED is the error read. Second digit is the  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;number of already injected errors(via UART) 		  
 * sdram_controller.v -> Interface module between FPGA and SDRAM. SDRAM used is "winbond-W9825G6KH". Current settings are:  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Burst: 1  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Address Mode: Sequential  
