@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021   
 
+[![image](https://user-images.githubusercontent.com/87559347/126279033-b8413d40-8cf2-43fd-ad00-3da44798f077.png)](https://youtu.be/qBkZ3yawzqo)
+
 # Inside the src folder are:    
 * top_pong_animated.v -> Combines the vga_core and pong_animated modules.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;A classic pong game but with breakable "bricks" rather than wall.  
