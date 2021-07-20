@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: July 1,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126293508-aa4c0b18-b897-402c-bbc9-174756d9799a.png)](https://youtu.be/PkNyh-GzMQg)
+
 # Inside the src folder are:  
 * squarewave_disp.v -> Combines the vga_core and full_screen_gen. Generates square wave patterns on screen.  
 			 key[0] to move cursor to right,  
