@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126271690-301c47fb-4a52-4e5a-9e0d-47bf37edefbe.png)](https://youtu.be/bhY4JmLHpPg)
+
 # Inside the src folder are:
 * top_module.v -> Combines the vga_core , vga_test_pattern, and 25MHz clk DCM modules. Alternates between horizontal 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and vertical test pattern depending if "key" is pressed or not.
