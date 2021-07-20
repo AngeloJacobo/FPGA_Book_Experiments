@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: May 10,2021  
 
+[![]( https://user-images.githubusercontent.com/87559347/126258595-ce56fb61-a894-4747-96fa-c04f1e6d7b54.png)](https://youtu.be/wVxKEtFgfEY )
+
 # Inside the src folder are:   
 * mouse_test.v -> Uses the mouse module to make the leds move based on the x-axis movement of the ps2 mouse  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Press key0 to transmit the code for enabling stream mode of the mouse  
