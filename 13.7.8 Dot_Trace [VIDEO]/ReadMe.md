@@ -1,7 +1,7 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
 
-Inside the src folder are:  
+# Inside the src folder are:  
 * top_bitmap_gen.v -> Combines the vga_core and bitmap_gen modules.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[3] to change ball location(randomly)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[2:0] to change trace color  
