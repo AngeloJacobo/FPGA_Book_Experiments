@@ -1,0 +1,72 @@
+NET "clk" LOC = T8 | TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+
+NET rst_n                  LOC = L3 | IOSTANDARD = "LVCMOS33";         ## reset pushbutton
+
+NET led<0>                LOC = P4 | IOSTANDARD = "LVCMOS33";       ## LED1
+NET led<1>                LOC = N5 | IOSTANDARD = "LVCMOS33";       ## LED2
+NET led<2>                LOC = P5 | IOSTANDARD = "LVCMOS33";       ## LED3
+NET led<3>                LOC = M6 | IOSTANDARD = "LVCMOS33";       ## LED4
+
+NET key<0>                LOC = C3 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET key<1>                LOC = D3 | IOSTANDARD = "LVCMOS33";       ## KEY2
+NET key<2>                LOC = E4 | IOSTANDARD = "LVCMOS33";       ## KEY3
+
+
+NET rx                LOC = C11 | IOSTANDARD = "LVCMOS33";   	## Uart RXD:U4_TXD
+
+
+NET sdram_clk              LOC =  H4 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM CLOCK
+NET sdram_cke              LOC =  H2 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM CKE
+NET sdram_cs_n             LOC =  G1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM CS
+NET sdram_we_n             LOC =  E1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM NWE
+NET sdram_cas_n            LOC =  F2 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM CAS
+NET sdram_ras_n            LOC =  F1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM RAS
+NET sdram_dqm<0>           LOC =  E2 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM DQM0
+NET sdram_dqm<1>           LOC =  H1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM DQM1
+NET sdram_ba<0>            LOC =  G6 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM BA0
+NET sdram_ba<1>            LOC =  J6 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM BA1
+NET sdram_addr<0>          LOC =  J3 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR0
+NET sdram_addr<1>          LOC =  J4 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR1
+NET sdram_addr<2>          LOC =  K3 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR2
+NET sdram_addr<3>          LOC =  K5 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR3
+NET sdram_addr<4>          LOC =  P1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR4
+NET sdram_addr<5>          LOC =  N1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR5
+NET sdram_addr<6>          LOC =  M2 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR6
+NET sdram_addr<7>          LOC =  M1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR7
+NET sdram_addr<8>          LOC =  L1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR8
+NET sdram_addr<9>          LOC =  K2 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR9
+NET sdram_addr<10>         LOC =  K6 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR10
+NET sdram_addr<11>         LOC =  K1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR11
+NET sdram_addr<12>         LOC =  J1 | IOSTANDARD = "LVCMOS33" | SLEW=FAST; ## SDRAM ADDR12
+NET sdram_dq<0>            LOC = A3 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA0
+NET sdram_dq<1>            LOC = B3 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA1
+NET sdram_dq<2>            LOC = A2 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA2
+NET sdram_dq<3>            LOC = B2 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA3
+NET sdram_dq<4>            LOC = B1 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA4
+NET sdram_dq<5>            LOC = C2 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA5
+NET sdram_dq<6>            LOC = C1 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA6
+NET sdram_dq<7>            LOC = D1 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA7
+NET sdram_dq<8>            LOC = H5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA8
+NET sdram_dq<9>            LOC = G5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA9
+NET sdram_dq<10>           LOC = H3 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA10
+NET sdram_dq<11>           LOC = F6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA11
+NET sdram_dq<12>           LOC = G3 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA12
+NET sdram_dq<13>           LOC = F5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA13
+NET sdram_dq<14>           LOC = F3 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA14
+NET sdram_dq<15>           LOC = F4 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;    ## SDRAM DATA15 
+
+NET seg_out<6>            LOC = C7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<5>            LOC = E6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+NET seg_out<4>            LOC = C5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<3>            LOC = F7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<2>            LOC = D6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<1>            LOC = E7 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<0>            LOC = D5 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET seg_out<7>            LOC = C6 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
+NET sel_out<5>             LOC = D9  | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<4>             LOC = E10 | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<3>             LOC = F10 | IOSTANDARD = "LVCMOS33" | SLEW=FAST;
+NET sel_out<2>             LOC = F9 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET sel_out<1>             LOC = E8 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST;
+NET sel_out<0>             LOC = D8 | IOSTANDARD = "LVCMOS33"  | SLEW=FAST; 
