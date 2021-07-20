@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126281422-308e9fbd-7b18-4113-8cf9-58929fd63047.png)](https://youtu.be/Vgjt8XGUfEQ)
+
 # Inside the src folder are:   
 * vga_mouse.v -> Combines the vga_core and mouse modules. A 16x16 box acts as the mouse pointer and follows  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the mouse movement. Left/right click changes the color of the mouse pointer.  
