@@ -8,7 +8,7 @@ Date: June 13,2021
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
 
-**Answer: Use the Core Generator. You can find "Dual Port ROM" option there.**
+**Answer: Use the Core Generator. You can find the "Dual Port ROM" option there.**
 
 # Output:
 ![sine_cos_output](https://user-images.githubusercontent.com/87559347/126269562-28793d37-0563-40a6-8193-e3d29aa1213e.png)
