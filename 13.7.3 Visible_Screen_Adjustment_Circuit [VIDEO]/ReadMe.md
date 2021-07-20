@@ -13,7 +13,7 @@ Date: June 20,2021
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
-# TASS:
+# TASK:
 **13.7.3 Visible screen adjustment circuit** 
 
 Due to the internal timing error of a monitor, the visible portion of the screen may not   
