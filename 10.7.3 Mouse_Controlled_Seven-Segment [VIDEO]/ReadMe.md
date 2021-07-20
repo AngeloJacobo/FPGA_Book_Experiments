@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: May 11,2021   
 
+[![](https://user-images.githubusercontent.com/87559347/126260369-1446bcaa-06fd-40a3-af96-72adf5cdd7f8.png )](https://youtu.be/Kh9UoJ0pERw )
+
 # Inside the src folder are:    
 * mouse_test.v -> Uses the mouse module to make the seven-segments move (only 1 seven-segment is lit) based on the x-axis movement.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Displayed on the lit seven-segment is a counter that increments/decrements based on the movement of the y-axis	  	  	
