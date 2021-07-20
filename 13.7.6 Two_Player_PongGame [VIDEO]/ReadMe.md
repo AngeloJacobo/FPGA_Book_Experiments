@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
   
+[![image](https://user-images.githubusercontent.com/87559347/126278436-cc77fe94-916d-4412-809a-82e6cbe3ef93.png)](https://youtu.be/O0mYg6A7lDU)
+
 # Inside the src folder are:  
 * top_module.v -> Combines the vga_core, pong_animated, and uart modules.    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;player 1 paddle controller: keyboard "w" for up, "s" for down  
