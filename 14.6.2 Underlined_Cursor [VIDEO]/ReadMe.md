@@ -1,9 +1,11 @@
 Created by: Angelo Jacobo   
 Date: June 30,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126286106-b12303fb-2e91-47d5-a6c8-7cf85f7e7eeb.png)](https://youtu.be/AUJCHo4bU0w)
+
 # Inside the src folder are:
 * underlined_cursor.v -> Combines the vga_core, full_screen_gen, and uart modules. An underline serves  
- 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; as the cursor to current postion.    
+ 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; as the cursor to current position.    
 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[0] to move cursor to right,    
 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] to move cursor down,   
 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[2] to write new ASCII character(from UART with 4800BaudRate) to current cursor  
