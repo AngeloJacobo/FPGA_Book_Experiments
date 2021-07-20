@@ -5,9 +5,9 @@ Date: July 1,2021
 
 # Inside the src folder are:  
 * squarewave_disp.v -> Combines the vga_core and full_screen_gen. Generates square wave patterns on screen.  
-			 key[0] to move cursor to right,  
-			 key[1] to move cursor down,  
-			 key[2] to change waveform pattern(4 different patterns)		
+			 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[0] to move cursor to right,  
+			 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] to move cursor down,  
+			 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[2] to change waveform pattern(4 different patterns)		
 * full_screen_gen.v ->  Main logic for displaying different square wave patterns on screen  
 * vga_core.v -> VGA controller for a 640x480 @60Hz resolution.  
 * squarewave_disp.ucf -> Constraint file for squarewave_disp.v  
