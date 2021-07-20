@@ -1,0 +1,28 @@
+NET "clk" LOC = T8 | TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+
+NET  rst_n                 LOC = L3 | IOSTANDARD = "LVCMOS33";
+
+NET vga_out_r<4>           LOC = M13 | IOSTANDARD = "LVCMOS33";        ## VGA R4
+NET vga_out_r<3>           LOC = N14 | IOSTANDARD = "LVCMOS33";        ## VGA R3
+NET vga_out_r<2>           LOC = L12 | IOSTANDARD = "LVCMOS33";        ## VGA R2
+NET vga_out_r<1>           LOC = M12 | IOSTANDARD = "LVCMOS33";        ## VGA R1
+NET vga_out_r<0>           LOC = M11 | IOSTANDARD = "LVCMOS33";        ## VGA R0
+NET vga_out_g<5>           LOC = P11 | IOSTANDARD = "LVCMOS33";        ## VGA G4
+NET vga_out_g<4>           LOC = M10 | IOSTANDARD = "LVCMOS33";        ## VGA G4
+NET vga_out_g<3>           LOC = L10 | IOSTANDARD = "LVCMOS33";        ## VGA G3
+NET vga_out_g<2>           LOC = P9 | IOSTANDARD = "LVCMOS33";         ## VGA G2
+NET vga_out_g<1>           LOC = N9 | IOSTANDARD = "LVCMOS33";         ## VGA G1
+NET vga_out_g<0>           LOC = M9 | IOSTANDARD = "LVCMOS33";         ## VGA G0
+NET vga_out_b<4>           LOC = L7 | IOSTANDARD = "LVCMOS33";         ## VGA B4
+NET vga_out_b<3>           LOC = N8 | IOSTANDARD = "LVCMOS33";         ## VGA B3
+NET vga_out_b<2>           LOC = P8 | IOSTANDARD = "LVCMOS33";         ## VGA B2
+NET vga_out_b<1>           LOC = M7 | IOSTANDARD = "LVCMOS33";         ## VGA B1
+NET vga_out_b<0>           LOC = P7 | IOSTANDARD = "LVCMOS33";         ## VGA B0
+
+NET vga_out_vs             LOC = L13 | IOSTANDARD = "LVCMOS33";        ## VGA VS
+NET vga_out_hs             LOC = M14 | IOSTANDARD = "LVCMOS33";        ## VGA HS 
+
+NET key<0>                LOC = C3 | IOSTANDARD = "LVCMOS33";       ## KEY1
+NET key<1>                LOC = D3 | IOSTANDARD = "LVCMOS33";       ## KEY2
+//NET "rst_n" CLOCK_DEDICATED_ROUTE = FALSE;
