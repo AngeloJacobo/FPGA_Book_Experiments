@@ -4,7 +4,7 @@ Date: June 20,2021
 # Inside the src folder are:
 * top_module.v -> Combines the vga_core and ball_in_a_box modules. Ball bounces inside a 256x256 box  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] is for changing  ball speed, key[0] for changing location of ball(randomly)  
-* * ball_in_a_box.v -> Logic for self-bouncing ball. Ball bounces inside a 256x256 box.  
+* ball_in_a_box.v -> Logic for self-bouncing ball. Ball bounces inside a 256x256 box.  
 * vga_core.v -> VGA controller for a 640x480 @60Hz resolution.  
 * top_module.ucf -> Constraint file for top_module.v  
 
