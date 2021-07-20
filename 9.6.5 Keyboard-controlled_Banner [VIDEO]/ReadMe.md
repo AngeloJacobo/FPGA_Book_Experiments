@@ -1,7 +1,7 @@
 Created by: Angelo Jacobo  
 Date: April 28,2021  
 
-[![](https://user-images.githubusercontent.com/87559347/126129366-ceb1841c-ab8a-4c91-8268-1d18c06f510e.png)]( https://youtu.be/kn6DTLnBa1w)
+[![](https://user-images.githubusercontent.com/87559347/126129366-ceb1841c-ab8a-4c91-8268-1d18c06f510e.png)]( https://youtu.be/AKb4ZioZzGo)
 
 # Inside the src folder are:  
 * kb_banner.v -> Combines the rotating_LED(from experiment 4.7.5) and LED-mux modules.  
