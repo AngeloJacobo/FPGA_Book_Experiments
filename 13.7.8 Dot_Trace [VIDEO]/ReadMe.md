@@ -1,6 +1,9 @@
 Created by: Angelo Jacobo   
 Date: June 20,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126280337-bcbac6f3-2b92-4163-9235-0170871a5811.png)](https://youtu.be/mBqZzBWOrJA)
+
+
 # Inside the src folder are:  
 * top_bitmap_gen.v -> Combines the vga_core and bitmap_gen modules.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[3] to change ball location(randomly)  
