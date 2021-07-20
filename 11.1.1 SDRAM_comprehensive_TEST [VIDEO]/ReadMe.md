@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 8,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126262494-5e1eee40-05a8-47f6-aed7-64bda106569f.png)](https://youtu.be/zBwUQh7jp3s)
+
 # Inside the src folder are:  
 * sdram_test.v -> Comprehensive testing circuit for SDRAM.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key<0>: Writes data to all 2^24 addresses of SDRAM  
