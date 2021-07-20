@@ -1,6 +1,9 @@
 Created by: Angelo Jacobo   
 Date: June 30,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126284553-ff392df9-e6fd-4b8e-a4d3-bebb3117ea1b.png)](https://youtu.be/vu0Qm7xkSaw)
+
+
 # Inside the src folder are:
 * rotating_banner.v -> Combines the vga_core and rotating_banner_gen modules. The banner text is: "Hello FPGA World".  
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1:0] for changing char size ,   
