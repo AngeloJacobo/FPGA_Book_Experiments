@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: June 30,2021   
 
+[![image](https://user-images.githubusercontent.com/87559347/126288816-b4190d5e-6905-467a-ad8f-fe6dd392a8e6.png)](https://youtu.be/cp6HwnJaJ2U)
+
 # Inside the src folder are:    
 * keyboard_text_ps2.v -> Combines the vga_core, full_screen_gen, and kb modules. Uses ps2 keyboard    
 			  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;to display ASCII characters on screen.   
