@@ -1,13 +1,16 @@
 Created by: Angelo Jacobo     
 Date: June 30,2021    
 
-# Inside the src folder are:  
-* dual_mode_disp.v -> Combines the vga_core, mode_vertical, mode_horizontal, and uart modules. Turn the monitor    
-			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; by 90 degrees when at Vertical mode. Horizontal mode the default monitor display.	  		 
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[0] to move cursor to right,   
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] to move cursor down,   
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[2] to write new ASCII character(from UART with 4800BaudRate) to current cursor    
-				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[3] to change display mode(vertical or horizontal)  
+[![image](https://user-images.githubusercontent.com/87559347/126287878-3c68ce4c-9b44-4fae-b881-55b2f57709e2.png)](https://youtu.be/aqQkKjAYrzY)
+
+
+# Inside the src folder are:    
+* dual_mode_disp.v -> Combines the vga_core, mode_vertical, mode_horizontal, and uart modules. Turn the monitor       
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;by 90 degrees when at Vertical mode. Horizontal mode is the default monitor display.  
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[0] to move cursor to right,     
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1] to move cursor down,   
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[2] to write new ASCII character(from UART with 4800BaudRate) to current cursor    
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[3] to change display mode(vertical or horizontal)  
 * mode_vertical.v -> Display is tilted by 90 degrees.   
 * mode_horizontal.v -> Display angle is at default 0 degrees.    
 * uart.v -> Top module for UART-controller, default at 4800BaudRate for 25MHz clock.  
