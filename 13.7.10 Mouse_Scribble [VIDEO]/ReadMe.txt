@@ -1,0 +1,26 @@
+Created by: Angelo Jacobo 
+Date: June 21,2021
+
+Inside the src folder are:
+vga_mouse.v -> Combines the vga_core and mouse modules.The mouse movement is followed and leaves a "trace".
+			Left click turns on/off the trace 
+			Right click clears the screen of all traces
+			key[2:0] to change trace color
+mouse.v -> ps/2 mouse module
+vga_core.v -> VGA controller for a 640x480 @60Hz resolution.
+dcm_25MHz.xco -> 25MHz Clock used for the 640x480 @60Hz resolution.
+vga_mouse.ucf -> Constraint file for vga_mouse.v
+
+Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
+
+
+TASKS:
+13.7.10 Small-screen mouse scribble circuit 
+
+Mouse scribble circuit keeps track of the trace of the mouse movement in a 256-by-256
+screen, somewhat similar to the dot trace circuit discussed in Section 13.5. Its specification 
+is as follows: 
+> The 3-bit switch determines the color of the trace. 
+> Clicking the left button of the mouse turns on and off the trace alternately. 
+> Clicking the right button of the mouse clears the screen. 
+Synthesize and verify operation of the circuit.
