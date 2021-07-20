@@ -3,7 +3,7 @@ Date: July 2,2021
 
 # Inside the src folder are:  
 * pong_top.v -> Combines the vga_core, pong_animated, and pong_text modules.A classic 2-player pong game.     
-			c&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1:0] for player 1,  
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1:0] for player 1,  
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[3:2] for player 2  
 * pong_animated.v -> Control module for any graphs/symbols that will be displayed on the game.  
 * pong_text.v -> Control module for any texts that will be displayed on the game.  
