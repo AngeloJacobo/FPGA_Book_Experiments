@@ -14,6 +14,9 @@ Date: June 20,2021
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
 
+# Specifications [800x600 Resolution]:
+![SVGA_mode](https://user-images.githubusercontent.com/87559347/126273387-b9f7fb33-9e81-4912-a773-20a5c576d0c8.jpg)
+
 # TASKS:
 **13.7.2 SVGA mode synchronization circuit** 
 
