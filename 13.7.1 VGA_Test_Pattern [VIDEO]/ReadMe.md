@@ -8,7 +8,6 @@ Date: June 20,2021
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and vertical test pattern depending if "key" is pressed or not.
 * vga_test_pattern.v -> Generates the test patterns which can be either horizontal or vertical strips of 8 colors.	
 * vga_core.v -> VGA controller for a 640x480 @60Hz resolution.
-* dcm_25MHz.xco -> Clock used is 25MHz for a 640x480 @60Hz resolution.
 * top_module.ucf -> Constraint file for top_module.v
 
 Note: The constraint file is designed for Spartan 6 xc6slx9-2ftg256 FPGA (specifically the AX309 FPGA development board). Edit at your own risk.
