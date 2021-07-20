@@ -4,7 +4,7 @@
  
 * Covers **ALL EXPERIMENTS** from Chapter 2 to Chapter 14  
 
-* All folders with [VIDEO] on its name has short videos demonstarting the finished project. 
+* All folders with [VIDEO] on its name has short videos demonstrating the finished project. 
 
 * All videos can be found here: https://www.youtube.com/channel/UCLLnDqN5Temd_Ld0dJS5Dgg/featured  
 **🔔🔔Subscribe to my channel for more open-source projects🔔🔔**  
