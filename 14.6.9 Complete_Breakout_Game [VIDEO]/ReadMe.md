@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: July 3,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126298407-d59da195-5d31-49e3-afcf-176aeebc9c19.png)](https://youtu.be/TmU8Ie4jBbM)
+
 # Inside the src folder are:  
 * breakout_top.v -> Combines the vga_core, pong_animated, and pong_text modules. A classic pong game  
 		     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;but with breakable "bricks" rather than a fix wall.  
