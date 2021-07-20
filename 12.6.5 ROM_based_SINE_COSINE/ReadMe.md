@@ -8,6 +8,11 @@ Date: June 13,2021
 
 Note: This code is for simulation-purpose only and is not yet synthesized to any FPGA.  
 
+**Answer: Use the Core Generator. You can find "Dual Port ROM" option there.**
+
+# Output:
+![sine_cos_output](https://user-images.githubusercontent.com/87559347/126269562-28793d37-0563-40a6-8193-e3d29aa1213e.png)
+
 
 # TASK: 
 **12.6.5 ROM-based sin(x) and cos(x) functions**
@@ -29,3 +34,5 @@ goal.
 
 Construct this special ROM and derive the HDL code for the pre- and postprocessing   
 circuits. Use a testbench similar to that in Experiment 12.6.4 to verify the circuit's operation.
+
+
