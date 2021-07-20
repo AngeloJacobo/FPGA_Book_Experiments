@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo     
 Date: July 2,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126297274-5b054028-bd84-47dc-8d8f-e11e90c026ab.png)](https://youtu.be/Rzg7Fj_cMj0)
+
 # Inside the src folder are:  
 * pong_top.v -> Combines the vga_core, pong_animated, and pong_text modules.A classic 2-player pong game.     
 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;key[1:0] for player 1,  
