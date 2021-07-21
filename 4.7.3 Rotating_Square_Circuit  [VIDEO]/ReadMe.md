@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo  
 Date: March 6,2021  
 
+[![image](https://user-images.githubusercontent.com/87559347/126421735-0ea397e8-596a-4816-b8c9-d99742437518.png)](https://youtu.be/TmU8Ie4jBbM)
+
 # Inside the src folder are:  
 * rotate_sq.v -> Rotating square circuit for 6 seven-segments with enable and clockwise/counterclockwise control  
 * rotate_sq_TB.v -> Testbench with a period of 100ns per box  
