@@ -9,4 +9,11 @@
 * All said videos can be found here: https://www.youtube.com/channel/UCLLnDqN5Temd_Ld0dJS5Dgg/featured  
 **🔔🔔Subscribe to my channel for more open-source projects🔔🔔**  
 
-* Inquiries? Connect with me at my linkedin: https://www.linkedin.com/in/angelo-jacobo/
+# Donate   
+Support these open-source projects by donating  
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=GBJQGJNCJZVRU)
+
+
+# Inquiries  
+Connect with me at my linkedin: https://www.linkedin.com/in/angelo-jacobo/
