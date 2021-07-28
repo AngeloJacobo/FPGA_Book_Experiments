@@ -6,7 +6,7 @@
 
 * All folders with [VIDEO] on its name has short videos demonstrating the finished project. 
 
-* All said videos can be found here: https://www.youtube.com/playlist?list=PLqaZ9TGIKESf19uPGMIM4nIWGpACFZFUs
+* All said videos can be found here: https://www.youtube.com/playlist?list=PLqaZ9TGIKESf19uPGMIM4nIWGpACFZFUs  
 **🔔🔔Subscribe to my channel for more open-source projects🔔🔔**  
 
 # Donate   
